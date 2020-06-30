@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Oxygen+Mono&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/4b6f36aabf.js" crossorigin="anonymous"></script>
+  <title>Vlter</title>
+</head>
+<body>
+  <nav id="navbar">
+    <a href="index.html"><h1>Vlter</h1></a>
+    <div class="links">
+      <div class="explore">
+        <button class="explore-btn">Explore</button>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Fall 2020</a></li>
+          <li><a href="#">Trending</a></li>
+          <li><a href="#">Classics</a></li>
+          <li><a href="#">All Clothing</a></li>
+        </ul>
+      </div>
+      <a href="#" class="nav-item"><i class="fas fa-shopping-bag"></i></a>
+    </div>
+  </nav>
+
+  <section class="showcase">
+    <div class="showcase-content">
+      <h1>Fall 2020</h1>
+      <a href="#">Shop Now</a>
+    </div>
+  </section>
+
+  <section id="main-img">
+    <div class="container main-container">
+      <a href="#"><img src="img/VlterFigma1Update.png" alt=""></a>
+      <a href="#"><img src="img/VlterFigma2Update.png" alt=""></a>
+    </div>
+  </section>
+
+  <section class="essentials">
+    <div class="product-container">
+      <p class="essentials-title">Essentials</p>
+      <div class="mySlides slide-one">
+        <div class="box-items">
+          <a href="#" class="box-1">
+            <div class="box-1">
+              <img src="img/VlterJoggerPants1Scaled.png" alt="">
+              <h5>Camo Jogger Pants</h5>
+              <p>$40</p>
+            </div>
+          </a>
+          <a href="#" class="box-2">
+            <div class="box-2">
+              <img src="img/VlterJoggerPants2Scaled.png" alt="">
+              <h5>Black Jogger Pants</h5>
+              <p>$40</p>
+            </div>
+          </a>
+          <a href="#" class="box-3">
+            <div class="box-3">
+              <img src="img/VlterShirt1Scaled.png" alt="">
+              <h5>Black Logo Shirt</h5>
+              <p>$20</p>
+            </div>
+          </a>
+          <a href="#" class="box-4">
+            <div class="box-4">
+              <img src="img/VlterShirt2Scaled.png" alt="">
+              <h5>White Logo Shirt</h5>
+              <p>$20</p>
+            </div>
+          </a>
+          <button id="right-btn" onclick="plusSlides(1)"><i class="fas fa-chevron-circle-right fa-3x"></i></button>
+        </div>
+      </div>
+      <div class="mySlides slide-two">
+        <div class="box-items">
+          <a href="#" class="box-1">
+            <div class="box-1">
+              <img src="img/VlterShorts1Scaled.png" alt="">
+              <h5>Black Shorts (Slim)</h5>
+              <p>$30</p>
+            </div>
+          </a>
+          <a href="#" class="box-2">
+            <div class="box-2">
+              <img src="img/VlterHoodie1Scaled.png" alt="">
+              <h5>Black Logo Hoodie</h5>
+              <p>$40</p>
+            </div>
+          </a>
+          <a href="#" class="box-3">
+            <div class="box-3">
+              <img src="img/VlterSweatshirt1Scaled.png" alt="">
+              <h5>Navy Logo Sweatshirt</h5>
+              <p>$35</p>
+            </div>
+          </a>
+          <a href="#" class="box-4">
+            <div class="box-4">
+              <img src="img/VlterButtonUp1Scaled.png" alt="">
+              <h5>Indigo Button-up Longsleeve</h5>
+              <p>$30</p>
+            </div>
+          </a>
+          <button id="left-btn" onclick="plusSlides(-1)"><i class="fas fa-chevron-circle-left fa-3x"></i></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- The dots/circles -->
+  <section>
+    <div style="text-align: center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+    </div>
+  </section>
+
+  <section class="slogan">
+    <h1>Choose to Alter.</h1>
+  </section>
+
+  <section class="about container">
+    <div class="about-div">
+      <h2>About</h2>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo nesciunt reiciendis dolor sequi optio. Doloremque rem reiciendis ut qui nihil cum quae voluptatem sapiente, voluptates nam aperiam unde dolorum rerum!</p>
+    </div>
+    <div class="extra-div">
+      <h2>Extra</h2>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo nesciunt reiciendis dolor sequi optio. Doloremque rem reiciendis ut qui nihil cum quae voluptatem sapiente, voluptates nam aperiam unde dolorum rerum!</p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container footer-container">
+      <div>
+        <h3>Subscribe</h3>
+        <p>Get updates on our latest styles, trending, and more!</p>
+        <form>
+          <input type="email" placeholder="Enter Email...">
+          <input type="submit" value="Subscribe" class="btn btn-primary">
+        </form>
+      </div>
+      <div>
+        <h3>Site Links</h3>
+        <ul class="list">
+          <li><a href="#">Help and Support</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Follow Us</h3>
+        <a href="#" class="social"><i class="fab fa-facebook"></i></a>
+        <a href="#" class="social"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="social"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+    <div>
+      <p>Vlter &copy; 2020. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
